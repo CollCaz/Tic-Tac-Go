@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.16.0 -->
+<interface>
+  <!-- interface-name main.ui -->
+  <requires lib="gtk" version="4.6"/>
+  <object class="GtkWindow" id="MainWindow">
+    <property name="child">
+      <object class="GtkGrid">
+        <child>
+          <object class="GtkButton" id="Button1">
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="column-span">1</property>
+              <property name="row">0</property>
+              <property name="row-span">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="Button2">
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="column-span">1</property>
+              <property name="row">0</property>
+              <property name="row-span">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="Button3">
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <layout>
+              <property name="column">2</property>
+              <property name="column-span">1</property>
+              <property name="row">0</property>
+              <property name="row-span">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="Button4">
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="column-span">1</property>
+              <property name="row">1</property>
+              <property name="row-span">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="Button7">
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="column-span">1</property>
+              <property name="row">2</property>
+              <property name="row-span">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="Button5">
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="column-span">1</property>
+              <property name="row">1</property>
+              <property name="row-span">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="Button6">
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <layout>
+              <property name="column">2</property>
+              <property name="column-span">1</property>
+              <property name="row">1</property>
+              <property name="row-span">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="Button8">
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="column-span">1</property>
+              <property name="row">2</property>
+              <property name="row-span">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="Button9">
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <layout>
+              <property name="column">2</property>
+              <property name="column-span">1</property>
+              <property name="row">2</property>
+              <property name="row-span">1</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </property>
+    <property name="default-height">300</property>
+    <property name="default-width">300</property>
+    <property name="resizable">False</property>
+    <property name="title">gotk4 builder example</property>
+  </object>
+</interface>
